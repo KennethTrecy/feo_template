@@ -1,7 +1,7 @@
 [package]
 name = "feo_template"
 version = "0.1.0-dev"
-authors = []
+authors = ["Kenneth Trecy Tobias <web.kennethtobias@gmail.com>"]
 edition = "2021"
 
 [features]
