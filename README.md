@@ -14,13 +14,6 @@ The repository was based from [`master`] branch of [Feo Template].
 ## Usage
 You can modify this repository's files' content or names as much as you want.
 
-### License
-The repository is licensed under [MIT-0]. Since this is a template repository, you can remove
-license file if you want to use other license or you will use the template repository for a private
-template/project. You can follow the steps below:
-1. Run `git revert 0daa8ded` to revert the license back to MIT license.
-2. Run `git revert 86a573af` to remove the license completely.
-
 ## Notes
 It is optional to attribute this repository in other template/projects.
 
@@ -33,5 +26,3 @@ Coded by Kenneth Trecy Tobias.
 [Feo Template]: https://github.com/KennethTrecy/feo_template
 
 -->
-
-[MIT-0]: https://github.com/KennethTrecy/origenne_template/blob/master/LICENSE
