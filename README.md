@@ -28,7 +28,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`master`]: https://github.com/KennethTrecy/feo_template
+[`initial`]: https://github.com/KennethTrecy/feo_template/tree/initial
 [Feo Template]: https://github.com/KennethTrecy/feo_template
 
 -->
