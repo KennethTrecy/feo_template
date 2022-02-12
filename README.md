@@ -7,7 +7,7 @@ other existing templates/projects.
 The `origin` section may be used to indicate where the project (that is using this template) came from.
 
 ## Origin
-The repository was based from [`master`] branch of [Feo Template].
+The repository was based from [`empty_bare_metal`] branch of [Feo Template].
 
 -->
 
@@ -22,7 +22,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`master`]: https://github.com/KennethTrecy/feo_template
+[`empty_bare_metal`]: https://github.com/KennethTrecy/feo_template/tree/empty_bare_metal
 [Feo Template]: https://github.com/KennethTrecy/feo_template
 
 -->
