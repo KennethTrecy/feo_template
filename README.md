@@ -1,4 +1,4 @@
-# Origenne Template
+# Feo Template
 This is a general template repository of Kenneth Trecy Tobias. Its purpose is to be used for other
 templates/projects either by forking this repository, copying its files, or merging its history to
 other existing templates/projects.
