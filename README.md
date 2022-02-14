@@ -14,7 +14,7 @@ The `origin` section may be used to indicate where the project (that is using th
 from.
 
 ## Origin
-The repository was based from [`filled_bare_metal`] branch of [Feo Template].
+The repository was based from [`master`] branch of [Feo Template].
 
 -->
 
@@ -57,7 +57,7 @@ Coded by Kenneth Trecy Tobias.
 
 <!--
 
-[`filled_bare_metal`]: https://github.com/KennethTrecy/feo_template/tree/filled_bare_metal
+[`master`]: https://github.com/KennethTrecy/feo_template
 [Feo Template]: https://github.com/KennethTrecy/feo_template
 
 -->
