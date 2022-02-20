@@ -1,11 +1,7 @@
 name: Library
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - 'src/**'
+  push: []
   pull_request:
     types:
       - opened
