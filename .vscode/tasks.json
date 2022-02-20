@@ -4,8 +4,8 @@
 		"label": "",
 		"type": "shell",
 		"options": { "cwd": ".." },
-		"command": "",
-		"args": [""],
+		"command": "cargo",
+		"args": ["test --all-features"],
 		"presentation": {
 			"echo": false,
 			"reveal": "silent",
@@ -15,7 +15,7 @@
 			"clear": false
 		},
 		"group": {
-			"kind": "build",
+			"kind": "test",
 			"isDefault": true
 		}
 	}]
