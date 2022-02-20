@@ -1,11 +1,10 @@
 {
 	"version": "2.0.0",
 	"tasks": [{
-		"label": "",
+		"label": "Test all features",
 		"type": "shell",
-		"options": { "cwd": ".." },
 		"command": "cargo",
-		"args": ["test --all-features"],
+		"args": ["test", "--all-features"],
 		"presentation": {
 			"echo": false,
 			"reveal": "silent",
