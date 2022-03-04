@@ -1,7 +1,7 @@
 #!/usr/bin/env pwsh
 param($mode)
 
-if ($mode -eq "gone") {
+if ($mode -eq "remove") {
 	& git revert 86a573af
 	Write-Output "Removed the license."
 }
