@@ -1,12 +1,7 @@
 #!/usr/bin/env pwsh
 param($mode)
 
-if ($mode -eq "strict" || $mode -eq "gone") {
-	& git revert 0daa8ded
-	Write-Output "Reverted to MIT license."
-}
-
-if ($mode -eq "gone") {
+if ($mode -eq "remove") {
 	& git revert 86a573af
 	Write-Output "Removed the license."
 }
