@@ -39,10 +39,9 @@ After step 6, it is ready. Just run the command below to sync the changes from t
 ```
 
 ### License
-Since this is a template repository, you can remove license file if you want to use other license or
-you will use the template repository for a private template/project. You can run of the following
-below:
-- Run `./revert_commits_to.ps1 strict` to revert the license back to MIT license.
+The repository is licensed under [MIT]. Since this is a template repository, you can remove license
+file if you want to use other license or you will use the template repository for a private
+template/project. You can run of the following below:
 - Run `./revert_commits_to.ps1 remove` to remove the license completely.
 - Run `./revert_commits_to.ps1 retain` does nothing aside from informing you that license will be
   retained.
@@ -61,3 +60,5 @@ Coded by Kenneth Trecy Tobias.
 [Feo Template]: https://github.com/KennethTrecy/feo_template
 
 -->
+
+[MIT]: https://github.com/KennethTrecy/feo_template/blob/master/LICENSE
