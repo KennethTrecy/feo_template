@@ -21,6 +21,31 @@ Some parts of the repository was based from [`empty_toml`] branch of [Feo Templa
 ## Usage
 You can modify this repository's files' content or names as much as you want.
 
+### Initialization
+This template should be initialized to adhere in [Conventional Commits specification] for organize
+commits and automated generation of change log.
+
+#### Prerequisites
+- [Node.js and NPM]
+- [pnpm] (optional)
+
+#### Instructions
+By running the command below, all your commits will be linted to follow the [Conventional Commits
+specification].
+```
+$ npm install
+```
+
+Or if you have installed [pnpm], run the following command:
+```
+$ pnpm install
+```
+
+To generate the change log automatically, run the command below:
+```
+$ npx changelogen --from=[tag name or branch name or commit itself] --to=master
+```
+
 ### Syncing template
 You can merge this repository's history with your current project to synchronized its files from the
 template. Steps below indicate how you can synchronized the changes.
@@ -62,3 +87,6 @@ Coded by Kenneth Trecy Tobias.
 -->
 
 [MIT]: https://github.com/KennethTrecy/feo_template/blob/master/LICENSE
+[Node.js and NPM]: https://nodejs.org/en/
+[pnpm]: https://pnpm.io/installation
+[Conventional Commits specification]: https://www.conventionalcommits.org/en/v1.0.0/

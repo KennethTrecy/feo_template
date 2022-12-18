@@ -1,9 +1,10 @@
 {
   "name": "feo_template",
-  "version": "v0.3.1-feo_template",
+  "version": "v0.4.0-feo_template-dev",
   "description": "This is a template repository of Kenneth Trecy Tobias. Its purpose is to be used for other templates/projects either by forking this repository, copying its files, or merging its history to other existing templates/projects.",
   "author": "Kenneth Trecy Tobias <web.kennethtobias@gmail.com>",
   "private": "true",
+  "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
