@@ -66,7 +66,8 @@ After step 6, it is ready. Just run the command below to sync the changes from t
 ### License
 The repository is licensed under [MIT]. Since this is a template repository, you can remove license
 file if you want to use other license, or you can use the template repository for a private
-template/project. You can run one of the following below:
+template/project. You can run one of the following commands below:
+- Run `./revert_commits_to.ps1 strict` to revert the license back to MIT license.
 - Run `./revert_commits_to.ps1 remove` to remove the license completely.
 - Run `./revert_commits_to.ps1 retain` does nothing aside from informing you that license will be
   retained.
