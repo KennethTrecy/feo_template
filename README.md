@@ -47,8 +47,8 @@ $ npx changelogen --from=[tag name or branch name or commit itself] --to=master
 ```
 
 ### Syncing template
-You can merge this repository's history with your current project to synchronized its files from the
-template. Steps below indicate how you can synchronized the changes.
+You can merge this repository's history with your current project to synchronized your files from the
+template. Steps below indicate how you can synchronize the changes.
 1. Run `git remote add template [URL of this repository]`.
 2. Run `git fetch template [branch you want to use from the template]`.
 3. Run `git checkout template/[branch you want to use from the template]`.
@@ -65,8 +65,8 @@ After step 6, it is ready. Just run the command below to sync the changes from t
 
 ### License
 The repository is licensed under [MIT]. Since this is a template repository, you can remove license
-file if you want to use other license or you will use the template repository for a private
-template/project. You can run of the following below:
+file if you want to use other license, or you can use the template repository for a private
+template/project. You can run one of the following below:
 - Run `./revert_commits_to.ps1 remove` to remove the license completely.
 - Run `./revert_commits_to.ps1 retain` does nothing aside from informing you that license will be
   retained.
@@ -75,6 +75,9 @@ After that, *revert_commits_to.ps1* will be removed.
 
 ## Notes
 It is optional to attribute this repository in other template/projects.
+
+### Want to contribute?
+Read the [contributing guide] for different ways to contribute in the project.
 
 ### Author
 Coded by Kenneth Trecy Tobias.
@@ -90,3 +93,4 @@ Coded by Kenneth Trecy Tobias.
 [Node.js and NPM]: https://nodejs.org/en/
 [pnpm]: https://pnpm.io/installation
 [Conventional Commits specification]: https://www.conventionalcommits.org/en/v1.0.0/
+[contributing guide]: ./CONTRIBUTING.md
