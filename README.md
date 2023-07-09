@@ -4,7 +4,6 @@
 ![GitHub closed issues count](https://img.shields.io/github/issues-closed/KennethTrecy/feo_template?style=for-the-badge)
 ![GitHub pull request count](https://img.shields.io/github/issues-pr-closed/KennethTrecy/feo_template?style=for-the-badge)
 <!-- ![Commits since latest version](https://img.shields.io/github/commits-since/KennethTrecy/feo_template/latest?style=for-the-badge) -->
-![Lines of code](https://img.shields.io/tokei/lines/github/KennethTrecy/feo_template?style=for-the-badge)
 ![GitHub code size in bytes](https://img.shields.io/github/repo-size/KennethTrecy/feo_template?style=for-the-badge)
 
 # Feo Template
@@ -28,14 +27,13 @@ Some parts of the repository was based from [`empty_bare_metal`] branch of [Feo 
 -->
 
 ## Usage
-You can modify this repository's files' content or names as much as you want.
 
 ### Initialization
-This template should be initialized to adhere in [Conventional Commits specification] for organize
-commits and automated generation of change log.
+If you want to contribute, the repository should be initialized to adhere in [Conventional Commits
+specification] for organize commits and automated generation of change log.
 
 #### Prerequisites
-- [Node.js and NPM]
+- [Node.js environment]
 - [pnpm] (optional)
 
 #### Instructions
@@ -56,21 +54,11 @@ $ npx changelogen --from=[tag name or branch name or commit itself] --to=master
 ```
 
 ### Syncing template
-You can merge this repository's history with your current project to synchronized your files from the
-template. Steps below indicate how you can synchronize the changes.
-1. Run `git remote add template [URL of this repository]`.
-2. Run `git fetch template [branch you want to use from the template]`.
-3. Run `git checkout template/[branch you want to use from the template]`.
-4. Run `git checkout -b template--[branch you want to use from the template]`.
-5. Run `git checkout -b merged_template`. Creates a branch where `master` branch will be merged with
-   your chosen branch from template.
-6. Run `git merge master --allow-unrelated-histories`. Fix merged conflicts if you encounter them
-   then commit.
+To synchronize the files in this repository's history from the
+template, run `./setup_codebase.ps1 -branch [branch you want to use from the template]`.
 
-After step 6, it is ready. Just run the command below to sync the changes from template.
-```
-./merge_from_template.ps1 [branch you want to use from the template]
-```
+## Notes
+It is optional to attribute this repository in other template/projects.
 
 ### License
 The repository is licensed under [MIT]. Since this is a template repository, you can remove license
@@ -83,14 +71,14 @@ template/project. You can run one of the following commands below:
 
 After that, *revert_commits_to.ps1* will be removed.
 
-## Notes
-It is optional to attribute this repository in other template/projects.
-
 ### Want to contribute?
 Read the [contributing guide] for different ways to contribute in the project.
 
 ### Author
 Coded by Kenneth Trecy Tobias.
+
+### Disclaimer
+This personal project may contain references to trademarks, which are included in good faith. However, it is important to note that such references do not indicate any endorsement, affiliation, or sponsorship by the respective trademark holders unless explicitly stated.
 
 <!--
 
@@ -100,7 +88,7 @@ Coded by Kenneth Trecy Tobias.
 -->
 
 [MIT]: https://github.com/KennethTrecy/feo_template/blob/master/LICENSE
-[Node.js and NPM]: https://nodejs.org/en/
+[Node.js environment]: https://nodejs.org/en/
 [pnpm]: https://pnpm.io/installation
 [Conventional Commits specification]: https://www.conventionalcommits.org/en/v1.0.0/
 [contributing guide]: ./CONTRIBUTING.md
